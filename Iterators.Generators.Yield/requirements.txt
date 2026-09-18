@@ -1,0 +1,4 @@
+
+---
+
+## 📄 Файл `requirements.txt`
