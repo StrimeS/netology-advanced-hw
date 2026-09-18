@@ -4,7 +4,9 @@
 Содержит функцию get_employees.
 """
 
+from colorama import Fore, Style
+
 
 def get_employees() -> None:
     """Имитирует получение списка сотрудников и выводит сообщение."""
-    print("Список сотрудников получен.")
+    print(Fore.YELLOW + "Список сотрудников получен." + Style.RESET_ALL)
